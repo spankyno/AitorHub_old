@@ -9,7 +9,8 @@ import {
   FileAudio, 
   Radar, 
   ScanText, 
-  Image as ImageIcon 
+  Image as ImageIcon,
+  monitor-x
 } from 'lucide-react';
 import { LinkItem } from './types';
 

@@ -104,9 +104,19 @@ export const LINKS: LinkItem[] = [
     description: "Conversor y optimizador de formatos de imágenes rápido.",
     category: 'media',
     icon: ImageIcon
-  }
+  },
+  {
+    id: 'img',
+    title: "Libro de visitas",
+    url: "https://prukal2.infinityfreeapp.com/",
+    description: "Loguea tu dirección IP, junto con un comentario y datos del S.O. visitante",
+    category: 'utility'',
+    icon: Monitor-down
+  }  
 ];
 
 export const SOCIAL_LINKS = {
   twitter: "https://x.com/Kalbo___"
 };
+
+

@@ -10,7 +10,7 @@ import {
   Radar, 
   ScanText, 
   Image as ImageIcon,
-  monitor-x
+  airplay
 } from 'lucide-react';
 import { LinkItem } from './types';
 
@@ -112,7 +112,7 @@ export const LINKS: LinkItem[] = [
     url: "https://prukal2.infinityfreeapp.com/",
     description: "Loguea tu dirección IP, junto con un comentario y datos del S.O. visitante",
     category: 'Connectivity',
-    icon: monitor-x
+    icon: airplay
   }  
 ];
 

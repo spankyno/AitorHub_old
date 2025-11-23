@@ -17,7 +17,7 @@ import {
   MonitorCog,
   Locate,
   LocateFixed,
-  clapperboard
+  Clapperboard
 } from 'lucide-react';
 import { LinkItem } from './types';
 
@@ -175,7 +175,7 @@ export const LINKS: LinkItem[] = [
     url: "https://memories-montage-maker.vercel.app/",
     description: "Crea vídeos con fotos y música",
     category: 'Multimedia',
-    icon: clapperboard
+    icon: Clapperboard
   }  
 ];
 

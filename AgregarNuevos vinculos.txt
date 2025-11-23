@@ -1,0 +1,45 @@
+Agregar nuevos vínculos:
+
+1º.- Ver el icono y la categoría a la que pertenece (Cuidado con los guiones, no están admitidos) en:
+      https://lucide.dev/icons/
+	  
+2º.- Modificar el archivo constants.ts
+
+	- Agregar el incono en el imports:
+	
+			import { 
+		  Zap, 
+		  FileSpreadsheet, 
+		  Map as MapIcon, 
+		  MapPin, 
+		  Mic, 
+		  FileText, 
+		  Globe, 
+		  FileAudio, 
+		  Radar, 
+		  ScanText, 
+		  Image as ImageIcon,
+		  Airplay,
+		  MapPin,
+		  MapPinCheckInside,
+		  BookImage,
+		  MonitorCog,
+		  Locate,
+		  LocateFixed
+		} from 'lucide-react';
+		
+		
+	- Agregar este párrafo al final del archivo (la categoría es a la que pertenece el archivo, y el icon, es el que
+	  se ha importado antes):
+
+		{
+			id: 'gpxhistorial',
+			title: "Visor de archivos .gpx almacenados en historial",
+			url: "https://gpxhistory.netlify.app/",
+			description: "Visualiza archivos .gpx almacenados en historial",
+			category: 'navigation',
+			icon: LocateFixed
+		}
+
+Si da error el deploy, pasa el código por ChatGPT, para que lo depure.
+´

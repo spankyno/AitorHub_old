@@ -16,7 +16,8 @@ import {
   BookImage,
   MonitorCog,
   Locate,
-  LocateFixed
+  LocateFixed,
+  clapperboard
 } from 'lucide-react';
 import { LinkItem } from './types';
 
@@ -167,7 +168,15 @@ export const LINKS: LinkItem[] = [
     description: "Visualiza archivos .gpx almacenados en historial",
     category: 'navigation',
     icon: LocateFixed
-  }
+  },
+  {
+    id: 'memories',
+    title: "Memories maker",
+    url: "https://memories-montage-maker.vercel.app/",
+    description: "Crea vídeos con fotos y música",
+    category: 'Multimedia',
+    icon: clapperboard
+  }  
 ];
 
 export const SOCIAL_LINKS = {

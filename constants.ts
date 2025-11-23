@@ -12,7 +12,11 @@ import {
   Image as ImageIcon,
   Airplay,
   MapPin,
-  MapPinCheckInside
+  MapPinCheckInside,
+  BookImage,
+  MonitorCog,
+  Locate,
+  LocateFixed
 } from 'lucide-react';
 import { LinkItem } from './types';
 
@@ -131,7 +135,39 @@ export const LINKS: LinkItem[] = [
     description: "Posiciona fotos en un mapa v.2",
     category: 'navigation',
     icon: MapPinCheckInside
-  }  
+  },
+ {
+    id: 'galeria',
+    title: "Galería de fotos",
+    url: "https://aitorfotos.infinityfreeapp.com/",
+    description: "Galería de fotos, con permisos por usuarios y grupos",
+    category: 'files',
+    icon: BookImage
+  },
+ {
+    id: 'sysevent',
+    title: "Eventos del Sistema Operativo",
+    url: "https://syseventanalyzer.infinityfreeapp.com/",
+    description: "Obten informes de tiempo de uso a través de los eventos del sistema",
+    category: 'connectivity',
+    icon: MonitorCog
+  },
+  {
+    id: 'gpxviewer',
+    title: "Visor de rutas de archivos .gpx",
+    url: "https://visorgpx.infinityfreeapp.com/",
+    description: "Visualiza rutas de archivos .gpx",
+    category: 'navigation',
+    icon: Locate
+  },
+  {
+    id: 'gpxhistorial',
+    title: "Visor de archivos .gpx almacenados en historial",
+    url: "https://gpxhistory.netlify.app/",
+    description: "Visualiza archivos .gpx almacenados en historial",
+    category: 'navigation',
+    icon: LocateFixed
+  }
 ];
 
 export const SOCIAL_LINKS = {

@@ -39,9 +39,9 @@ const App: React.FC = () => {
             <div className="absolute -inset-1 bg-gradient-to-r from-brand-400 to-purple-400 rounded-2xl opacity-70 blur transition duration-500 group-hover:opacity-100 rotate-3"></div>
             <div className="relative w-48 h-48 sm:w-56 sm:h-56 rounded-2xl overflow-hidden border-4 border-white shadow-xl bg-white transform transition duration-500 group-hover:-rotate-2 group-hover:scale-[1.02]">
               <img 
-                src="img/AitorCaricatura.jpg" 
+                src="/img/AitorCaricatura.jpg" 
                 alt="Aitor Caricatura - Ir al Blog" 
-                className="w-full h-full object-cover transform transition duration-500 group-hover:scale-110"
+                className="w-full h-full object-cover"
                 onError={(e) => {
                   // Fallback if image doesn't exist during development
                   e.currentTarget.src = "https://picsum.photos/400/400";

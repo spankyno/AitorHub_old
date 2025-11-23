@@ -11,8 +11,8 @@ import {
   ScanText, 
   Image as ImageIcon,
   Airplay,
-  map-pin,
-  map-pin-check-inside
+  MapPin,
+  MapPinCheckInside
 } from 'lucide-react';
 import { LinkItem } from './types';
 
@@ -122,7 +122,7 @@ export const LINKS: LinkItem[] = [
     url: "https://aitorsg.infinityfreeapp.com/",
     description: "Posiciona fotos en un mapa v.1",
     category: 'navigation',
-    icon: map-pin
+    icon: MapPin
   },
  {
     id: 'georef2,
@@ -130,7 +130,7 @@ export const LINKS: LinkItem[] = [
     url: "https://aitorsangu.infinityfreeapp.com/",
     description: "Posiciona fotos en un mapa v.2",
     category: 'navigation',
-    icon: map-pin-check-inside
+    icon: MapPinCheckInside
   }  
 ];
 

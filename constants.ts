@@ -117,7 +117,7 @@ export const LINKS: LinkItem[] = [
     icon: Airplay
   },
  {
-    id: 'georef1,
+    id: 'georef1',
     title: "Georef v.1",
     url: "https://aitorsg.infinityfreeapp.com/",
     description: "Posiciona fotos en un mapa v.1",
@@ -125,7 +125,7 @@ export const LINKS: LinkItem[] = [
     icon: MapPin
   },
  {
-    id: 'georef2,
+    id: 'georef2',
     title: "Georef v.2",
     url: "https://aitorsangu.infinityfreeapp.com/",
     description: "Posiciona fotos en un mapa v.2",

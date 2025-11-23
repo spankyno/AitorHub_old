@@ -106,11 +106,11 @@ export const LINKS: LinkItem[] = [
     icon: ImageIcon
   },
   {
-    id: 'img',
+    id: 'logip',
     title: "Libro de visitas",
     url: "https://prukal2.infinityfreeapp.com/",
     description: "Loguea tu dirección IP, junto con un comentario y datos del S.O. visitante",
-    category: 'utility',
+    category: 'Connectivity',
     icon: monitor-down
   }  
 ];

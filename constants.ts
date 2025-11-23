@@ -118,7 +118,7 @@ export const LINKS: LinkItem[] = [
   },
  {
     id: 'georef1,
-    title: 'Georef v.1',
+    title: "Georef v.1",
     url: "https://aitorsg.infinityfreeapp.com/",
     description: "Posiciona fotos en un mapa v.1",
     category: 'navigation',
@@ -126,7 +126,7 @@ export const LINKS: LinkItem[] = [
   },
  {
     id: 'georef2,
-    title: 'Georef v.2',
+    title: "Georef v.2",
     url: "https://aitorsangu.infinityfreeapp.com/",
     description: "Posiciona fotos en un mapa v.2",
     category: 'navigation',

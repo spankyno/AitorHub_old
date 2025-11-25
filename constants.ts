@@ -10,14 +10,14 @@ import {
   Radar, 
   ScanText, 
   Image as ImageIcon,
-  Airplay,
-  MapPin,
+  Airplay,  
   MapPinCheckInside,
   BookImage,
   MonitorCog,
   Locate,
   LocateFixed,
-  Clapperboard
+  Clapperboard,
+  SmilePlus
 } from 'lucide-react';
 import { LinkItem } from './types';
 
@@ -184,9 +184,16 @@ export const LINKS: LinkItem[] = [
     description: "Crea vídeos con fotos y música",
     category: 'Multimedia',
     icon: Clapperboard
+  },
+  {
+    id: 'emoji',
+    title: "Emoji picker",
+    url: "https://kalboemojipicker.netlify.app/",
+    description: "Explora, visualiza, copia diferentes emojis",
+    category: 'Emoji',
+    icon: SmilePlus
   }  
 ];
-
 export const SOCIAL_LINKS = {
   twitter: "https://x.com/Kalbo___"
 };

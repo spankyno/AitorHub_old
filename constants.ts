@@ -42,6 +42,14 @@ export const LINKS: LinkItem[] = [
     icon: FileSpreadsheet
   },
   {
+    id: 'excelsheet',
+    title: "Excel's Sheets Password Remover",
+    url: "https://excel-sheet-password-remover.vercel.app/",
+    description: "Elimina las contraseñas de bloqueo de las hojas Excel",
+    category: 'tool',
+    icon: FileSpreadsheet
+  },
+  {
     id: 'gpx',
     title: "Visor GPX Simultáneo",
     url: "https://visorvariosgpx.netlify.app/",

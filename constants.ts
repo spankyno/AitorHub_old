@@ -200,8 +200,8 @@ export const LINKS: LinkItem[] = [
     url: "https://mdremover.netlify.app/",
     description: "Elimina metadatos y EXIF de archivos",
     category: 'files',
-    icon: eraser
-}  
+    icon: Eraser
+}
 ];
 export const SOCIAL_LINKS = {
   twitter: "https://x.com/Kalbo___"

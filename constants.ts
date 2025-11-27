@@ -17,7 +17,8 @@ import {
   Locate,
   LocateFixed,
   Clapperboard,
-  SmilePlus
+  SmilePlus,
+  Eraser
 } from 'lucide-react';
 import { LinkItem } from './types';
 
@@ -192,7 +193,15 @@ export const LINKS: LinkItem[] = [
     description: "Explora, visualiza, copia diferentes emojis",
     category: 'Emoji',
     icon: SmilePlus
-  }  
+  },
+{
+    id: 'metadata',
+    title: "Metadata Remover",
+    url: "https://mdremover.netlify.app/",
+    description: "Elimina metadatos y EXIF de archivos",
+    category: 'Text',
+    icon: eraser
+}  
 ];
 export const SOCIAL_LINKS = {
   twitter: "https://x.com/Kalbo___"

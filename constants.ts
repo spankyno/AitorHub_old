@@ -199,7 +199,7 @@ export const LINKS: LinkItem[] = [
     title: "Metadata Remover",
     url: "https://mdremover.netlify.app/",
     description: "Elimina metadatos y EXIF de archivos",
-    category: 'Text',
+    category: 'files',
     icon: eraser
 }  
 ];

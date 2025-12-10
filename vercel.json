@@ -2,10 +2,8 @@
   "redirects": [
     {
       "source": "/(.*)",
-      "destination": "https://aitorhub.vercel.app/",
+      "destination": "https://aitorhub.vercel.app/$1",
       "status": 301
     }
   ]
-
 }
-

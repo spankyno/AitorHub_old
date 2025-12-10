@@ -3,8 +3,9 @@
     {
       "source": "/(.*)",
       "destination": "https://aitorhub.vercel.app/",
-      "permanent": true
+      "status": 301
     }
   ]
 
 }
+

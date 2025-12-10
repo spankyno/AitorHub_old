@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "https://aitor-hub.vercel.app/",
+      "destination": "https://aitorhub.vercel.app/",
+      "permanent": true
+    }
+  ]
+}
